@@ -1,0 +1,41 @@
+Sender: LSF System <lsfadmin@eu-ms-022-20>
+Subject: Job 149873330: <./main 0> in cluster <euler> Done
+
+Job <./main 0> was submitted from host <eu-login-22> by user <flindlbauer> in cluster <euler> at Thu Oct 29 10:32:03 2020
+Job was executed on host(s) <eu-ms-022-20>, in queue <normal.4h>, as user <flindlbauer> in cluster <euler> at Thu Oct 29 10:32:11 2020
+</cluster/home/flindlbauer> was used as the home directory.
+</cluster/home/flindlbauer/lectures/hpcse/lecture/exercises/ex02/skeleton_code> was used as the working directory.
+Started at Thu Oct 29 10:32:11 2020
+Terminated at Thu Oct 29 10:32:14 2020
+Results reported at Thu Oct 29 10:32:14 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./main 0
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2.48 sec.
+    Max Memory :                                 6 MB
+    Average Memory :                             -
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               1018.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   24 sec.
+    Turnaround time :                            11 sec.
+
+The output (if any) follows:
+
+argc = 2
+argv = 0
+res:  3.14176444000000021362
+ref:  3.14159265358979311600
+error: 1.71786410207097617331e-04
+time: 2.40175106798415072262
